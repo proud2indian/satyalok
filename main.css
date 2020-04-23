@@ -155,8 +155,9 @@ body{
     text-align: center;
 }
 .same{
-    border: yellow 1.5px solid;
+    border-radius: 4%;
     display: inline-block;
     height: 100px;
-background: LightGray;
+    background: LightGray;
+    color: black;
 }
