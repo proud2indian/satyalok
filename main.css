@@ -152,5 +152,6 @@ body{
 .mp3{
     width 70vw;
     margin: auto;
+    line-height: 0.1em;
     text-align: center;
 }
