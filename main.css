@@ -146,7 +146,7 @@ body{
 .mySlides{
     border: rgb(219, 197, 1) 3px solid;
     height: 40vw;
-    max-height: 300px;
+    max-height: 200px;
     border-radius: 5%;
 }
 .mp3{
