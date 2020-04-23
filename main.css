@@ -151,10 +151,11 @@ body{
 }
 .mp3{
     width 70vw;
-    margin: auto;
+    margin: 0;
     line-height: 0.1em;
     text-align: center;
 }
 .sametxt{
     line-height: 0.1em;
+    font-family: monospace;
 }
