@@ -152,5 +152,8 @@ body{
 .mp3{
     width 70vw;
     margin: auto;
-text-align: center;
+    text-align: center;
+}
+.same{
+    border: yellow 1.5px solid;
 }
