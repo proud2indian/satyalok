@@ -28,6 +28,7 @@ body{
     width: 100vw;
     font-style: oblique;
     font-weight: 600;
+    text-align: left;
 }
 .made2{
     position: fixed;
@@ -102,7 +103,7 @@ body{
 }
 .init{
     text-align: center;
-    line-height: 0.8em;
+    line-height: 1em;
     font-family: Arial, Helvetica, sans-serif;
 }
 .banner{
@@ -126,8 +127,24 @@ body{
 .picnt{
     text-align: center;
 }
-.widget{
-    width: 100vw;
-    height: auto;
-    line-height: 0em;
+.qr{
+    display: inline-block;
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+.code{
+    width: 80vw;
+    max-width: 300px;
+    text-align: center;
+    align-items: center;
+    border-radius: 3%;
+    border: rgb(79, 27, 122) 4px solid;
+}
+.mySlides{
+    border: rgb(219, 197, 1) 3px solid;
+    height: 40vw;
+    max-height: 300px;
+    border-radius: 5%;
 }

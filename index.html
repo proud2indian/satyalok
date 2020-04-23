@@ -5,12 +5,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <style>
+        .mySlides {
+            display: none;
+        }
+    </style>
     <link rel="stylesheet" href="main.css">
     <title>Satyalok</title>
 </head>
 
 <body>
-    
+
     <div class="heading"><b>
             <h1>-सत्यलोक-<p style="text-decoration: underline;">Satyalok</p>
             </h1>
@@ -19,12 +26,44 @@
         <h5>An Initiative by Mr. Satyendra Narayan Rai Sir & Their Students</h5>
     </div>
 
+    <div class="w3-content w3-section" style="max-width: 550px;">
+        <img class="mySlides" src="image/0.jpg" style="width:100%">
+        <img class="mySlides" src="image/1.jpg" style="width:100%">
+        <img class="mySlides" src="image/2.jpg" style="width:100%">
+        <img class="mySlides" src="image/3.jpg" style="width:100%">
+        <img class="mySlides" src="image/4.jpg" style="width:100%">
+        <img class="mySlides" src="image/5.jpg" style="width:100%">
+        <img class="mySlides" src="image/6.jpg" style="width:100%">
+        <img class="mySlides" src="image/7.jpg" style="width:100%">
+        <img class="mySlides" src="image/8.jpg" style="width:100%">
+        <img class="mySlides" src="image/9.jpg" style="width:100%">
+      </div>
+      
+      <script>
+      var myIndex = 0;
+      carousel();
+      
+      function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";  
+        }
+        myIndex++;
+        if (myIndex > x.length) {myIndex = 1}    
+        x[myIndex-1].style.display = "block";  
+        setTimeout(carousel, 3000); // Change image every 2 seconds
+      }
+      </script>
+      
+
     <script src="https://apps.elfsight.com/p/platform.js" defer></script>
-<div class="elfsight-app-01517c76-cb52-43d9-bf49-8904bbc47792" class="widget"></div>
-    
-<div class="content">
+    <div class="elfsight-app-01517c76-cb52-43d9-bf49-8904bbc47792" class="widget"></div>
+
+    <div class="content">
         <h2>Why Satyalok?</h2>
-        <h5 style="color: aliceblue;">'Satyalok' literally means "The truthful divine place to live" or "A place where truthful divine people
+        <h5 style="color: aliceblue;">'Satyalok' literally means "The truthful divine place to live" or "A place where
+            truthful divine people
             live". If we are to declare our group/organization/website motto in one sentence, we can conclude, "let's
             make this world a little more better place to live". We believe - "It's never too late to start a good step
             towards goodness".</h4>
