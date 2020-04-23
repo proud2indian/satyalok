@@ -158,4 +158,5 @@ body{
 .sametxt{
     line-height: 0.1em;
     font-family: monospace;
+    text-align: center;
 }
