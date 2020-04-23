@@ -154,10 +154,3 @@ body{
     margin: auto;
     text-align: center;
 }
-.same{
-    border-radius: 4%;
-    display: inline-block;
-    height: 100px;
-    background: LightGray;
-    color: black;
-}
