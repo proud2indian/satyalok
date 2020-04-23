@@ -157,4 +157,5 @@ body{
 .same{
     border: yellow 1.5px solid;
     display: inline-block;
+    height: auto;
 }
