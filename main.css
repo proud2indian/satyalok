@@ -13,7 +13,7 @@ body{
 }
 .bottom{
     position: fixed;
-    bottom: 0em;
+    bottom: -1%;
     left: 0em;
     background: black;
     width: 100vw;
@@ -23,7 +23,7 @@ body{
 }
 .made1{
     position: fixed;
-    bottom: 0.3em;
+    bottom: 0em;
     left: 0.5em;
     background: black;
     width: 100vw;
