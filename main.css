@@ -133,6 +133,7 @@ body{
     border-radius: 50%;
     border: rgb(219, 197, 1) 3px solid;
     height: 10em;
+    vertical-align: middle;
 }
 .picnt{
     text-align: center;
