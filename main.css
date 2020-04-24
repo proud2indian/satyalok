@@ -205,3 +205,8 @@ body{
     border: rgb(219, 197, 1) 2px solid;
     margin: 5px;
 }
+iframe{
+    width: 80%;
+    max-width: 500px;
+    height: auto;
+}
