@@ -55,15 +55,11 @@ body{
 .back{
     text-align: center;
     position: fixed;
-    max-width: 50px;
-    top: 38px;
-    left: 38px;
+    max-width: 60px;
+    top: 30px;
+    left: 30px;
 }
-.back:hover{
-    transform: scale(1.1);
-    top: 20px;
-    left: 20px;
-}
+
 .btn{
     font-family:Arial, Helvetica, sans-serif;
     color: black;
