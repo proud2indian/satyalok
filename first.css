@@ -88,9 +88,7 @@ body{
     background: rgb(219, 197, 1);
     font-weight: 700;
     margin: auto;
-    display: inline-block;
     margin-top: 0.3em;
-    text-align: center;
 }
 .btn1:hover {
     background-color: black;
@@ -150,13 +148,19 @@ body{
     border: rgb(219, 197, 1) 3px solid;
     height: 40vw;
     width: 80vw;
-    max-height: 300px;
+    max-width: 45em;
+    max-height: 350px;
     border-radius: 5%;
+}
+.slide{
+    display: flex;
+    justify-content: center;
+    
 }
 
 .mp3{
-    width 70vw;
-    margin: 0;
+    width: 70vw;
+    margin: auto;
     line-height: 0.1em;
     text-align: center;
 }
