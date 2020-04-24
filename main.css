@@ -122,6 +122,8 @@ body{
 .bantxt{
     text-align: center;
     font-family: monospace;
+    display: flex;
+    justify-content: left;
 }
 .fndr{
     width: 10em;
