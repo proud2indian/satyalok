@@ -52,29 +52,33 @@
             <img class="mySlides" src="image/9.jpg" style="width:80vw; max-width: 45em;">
         </div>
     </div>
+    <div style="display: none;">
+        <script>
+            var myIndex = 0;
+            carousel();
 
-    <script>
-        var myIndex = 0;
-        carousel();
-
-        function carousel() {
-            var i;
-            var x = document.getElementsByClassName("mySlides");
-            for (i = 0; i < x.length; i++) {
-                x[i].style.display = "none";
+            function carousel() {
+                var i;
+                var x = document.getElementsByClassName("mySlides");
+                for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";
+                }
+                myIndex++;
+                if (myIndex > x.length) { myIndex = 1 }
+                x[myIndex - 1].style.display = "block";
+                setTimeout(carousel, 3000); // Change image every 2 seconds
             }
-            myIndex++;
-            if (myIndex > x.length) { myIndex = 1 }
-            x[myIndex - 1].style.display = "block";
-            setTimeout(carousel, 3000); // Change image every 2 seconds
-        }
-    </script>
+        </script>
+    </div>
     <br>
+    <div class="content"></div>
     <div class="covid">
         <script src="https://apps.elfsight.com/p/platform.js" defer></script>
         <div class="elfsight-app-01517c76-cb52-43d9-bf49-8904bbc47792" class="widget"></div>
     </div>
-    <div class="content">
+
+
+    
         <h2>Why Satyalok?</h2>
         <h5 style="color: aliceblue;">'Satyalok' literally means "The truthful divine place to live" or "A place where
             truthful divine people
