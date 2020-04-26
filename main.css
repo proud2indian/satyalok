@@ -131,7 +131,7 @@ body{
     max-width: 300px;
     text-align: center;
     align-items: center;
-    border-radius: 3%;
+    border-radius: 20px;
     border: rgb(79, 27, 122) 4px solid;
 }
 .mySlides{
