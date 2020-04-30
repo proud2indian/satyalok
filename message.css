@@ -2,6 +2,7 @@ body{
     background: rgb(36, 35, 35);
     color: rgb(219, 197, 1);
     align-content: center;
+text-align: center;
     max-width: 100vw;
 }
 .heading{
