@@ -155,8 +155,8 @@ body{
 .avatar{
     border-radius: 50%;
     vertical-align: middle;
-    width: 80px;
-    height: 80px;
+    width: 90px;
+    height: 90px;
     border: rgb(219, 197, 1) 3px solid;
 }
 .card{
