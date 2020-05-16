@@ -12,31 +12,7 @@
 </head>
 
 <body>
-    <div class="music">
-
-        <audio id="myAudio" autoplay>
-          <source src="1.mp3"audio/mpeg">
-        </audio>
-
-            <label for="play">Message : </label>
-            <input type="radio" name="playmusic" id="play" value="on" checked onclick="playMusic(this.value);"><span>Play</span>
-            <input type="radio" name="playmusic"  id="pause" value="off" onclick="playMusic(this.value);" ><span>Stop</span>
-        </div>
-
-        <script>
-        
-        function playMusic(i){
-            if(i == 'on'){
-                document.getElementById("myAudio").play();
-                localStorage.setItem("play", "on");
-            }
-            if(i == 'off'){
-                document.getElementById("myAudio").pause();
-                localStorage.setItem("play", "off");
-            }
-        }
-        </script>
-<H6 style="text-align: center; top: 0px; position: static; margin: auto;">सत्यमेव जयते</h6>
+    <H6 style="text-align: center; top: 0px; position: static; margin: auto;">सत्यमेव जयते</h6>
     <div class="heading">
         <div>
             <img src="logo.png" class="logo">
@@ -53,13 +29,13 @@
 
 
     <!-- Here is the Collection amount -->
-  <!--  <H3 class="collectionWidget">Current Collection <span style="color: rgb(11, 255, 2)">₹ 0,000</span></H3> -->
+    <!--  <H3 class="collectionWidget">Current Collection <span style="color: rgb(11, 255, 2)">₹ 0,000</span></H3> -->
     <!-- here Collection amount ends -->
     <br>
     <div class="slide">
         <div class="w3-content w3-section">
             <img class="mySlides" src="image/11.png" style="width:80vw; max-width: 45em;">
-            
+
             <img class="mySlides" src="image/0.jpg" style="width:80vw; max-width: 45em;">
             <img class="mySlides" src="image/1.jpg" style="width:80vw; max-width: 45em;">
             <img class="mySlides" src="image/2.jpg" style="width:80vw; max-width: 45em;">
@@ -72,61 +48,62 @@
             <img class="mySlides" src="image/9.jpg" style="width:80vw; max-width: 45em;">
         </div>
     </div>
-<!--     <div style="display: none;"> -->
-        <script>
-            var myIndex = 0;
-            carousel();
+    <!--     <div style="display: none;"> -->
+    <script>
+        var myIndex = 0;
+        carousel();
 
-            function carousel() {
-                var i;
-                var x = document.getElementsByClassName("mySlides");
-                for (i = 0; i < x.length; i++) {
-                    x[i].style.display = "none";
-                }
-                myIndex++;
-                if (myIndex > x.length) { myIndex = 1 }
-                x[myIndex - 1].style.display = "block";
-                setTimeout(carousel, 3000); // Change image every 2 seconds
+        function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
             }
-        </script>
-<!--     </div> -->
+            myIndex++;
+            if (myIndex > x.length) { myIndex = 1 }
+            x[myIndex - 1].style.display = "block";
+            setTimeout(carousel, 3000); // Change image every 2 seconds
+        }
+    </script>
+    <!--     </div> -->
     <br>
     <div class="content"></div>
 
-        <script src="https://apps.elfsight.com/p/platform.js" defer></script>
-        <div class="elfsight-app-01517c76-cb52-43d9-bf49-8904bbc47792" class="covid"></div>
+    <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+    <div class="elfsight-app-01517c76-cb52-43d9-bf49-8904bbc47792" class="covid"></div>
 
 
 
-    
-        <h2>Why Satyalok?</h2>
-        <h5 style="color: aliceblue;">'Satyalok' literally means "The truthful divine place to live" or "A place where
-            truthful divine people
-            live". If we are to declare our group/organization/website motto in one sentence, we can conclude, "let's
-            make this world a little more better place to live". We believe - "It's never too late to start a good step
-            towards goodness".</h4>
 
-            <div class="list"><a href="about.html" class="btn">About Us</a></div>
-            <div class="list"><a href="vision.html" class="btn">Our Vision</a></div>
-            <div class="list"><a href="join.html" class="btn">Join Our Group</a></div>
-           <!-- <div class="list"><a href="" class="btn">Donation Details</a></div> -->
-            <div class="list"><a href="message.html" class="btn">Messages</a></div><br>
+    <h2>Why Satyalok?</h2>
+    <h5 style="color: aliceblue;">'Satyalok' literally means "The truthful divine place to live" or "A place where
+        truthful divine people
+        live". If we are to declare our group/organization/website motto in one sentence, we can conclude, "let's
+        make this world a little more better place to live". We believe - "It's never too late to start a good step
+        towards goodness".</h4>
+
+        <div class="list"><a href="about.html" class="btn">About Us</a></div>
+        <div class="list"><a href="vision.html" class="btn">Our Vision</a></div>
+        <div class="list"><a href="join.html" class="btn">Join Our Group</a></div>
+        <!-- <div class="list"><a href="" class="btn">Donation Details</a></div> -->
+        <div class="list"><a href="message.html" class="btn">Messages</a></div><br>
 
 
 
-            <h4 style="text-align: center;">Gallery</h4>
-            <div class="list"><a href="gallery.html" class="btn">Social Media Gallery</a></div>
-            <div class="list"><a href="videos.html" class="btn">Videos</a></div>
+        <h4 style="text-align: center;">Gallery</h4>
+        <div class="list"><a href="gallery.html" class="btn">Social Media Gallery</a></div>
+        <div class="list"><a href="videos.html" class="btn">Videos</a></div>
 
-            <br>
-            <p><br>
-                <p>
-                    <div class="bottom">
-                        <div class="made1">Made With ❤️ In India<div style="font-size: small;">© Designed By <a class="link"
-                                style="text-decoration: underline;" href="https://rahulsingh.netlify.app">Rahul Kumar Singh</a></div>
-                        </div>
+        <br>
+        <p><br>
+            <p>
+                <div class="bottom">
+                    <div class="made1">Made With ❤️ In India<div style="font-size: small;">© Designed By <a class="link"
+                                style="text-decoration: underline;" href="https://rahulsingh.netlify.app">Rahul Kumar
+                                Singh</a></div>
                     </div>
-    </div>
+                </div>
+                </div>
 
 </body>
 
