@@ -2,7 +2,9 @@ body{
     background: rgb(0, 0, 0);
     color: rgb(219, 197, 1);
     margin: 50px;
+    margin-top: 0;
     align-content: center;
+    text-align: center;
 }
 .heading{
     text-align: center;
@@ -10,34 +12,30 @@ body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     line-height: 0em;
 }
+.india{
+    width: 60vw;
+    max-width: 500px;
+}
+.music{
+    
+}
 .bottom{
-    position: fixed;
-    bottom: 0em;
-    left: 0em;
+    margin: auto;
     background: black;
-    width: 100vw;
-    color: black;
-    font-style: oblique;
     font-weight: 600;
+}.made{
+    font-weight: 300;
 }
-.made1{
-    position: fixed;
-    bottom: 0.3em;
-    left: 0.5em;
-    width: 100vw;
-    font-style: oblique;
-    font-weight: 600;
-}
-.made2{
-    position: fixed;
-    font-family: monospace;
-    text-align: right;
-    bottom: 0.7em;
-    right: 0.5em;
+.made::before{
+    content: "Made With ❤️ In India";
+    color: rgb(219, 197, 1);
 }
 .link{
     text-decoration: none;
-    color: rgb(219, 197, 1);
+    background: rgb(219, 197, 1);
+    border-radius: 20px;
+    padding: 5px 8px;
+    color: black;
 }
 .content{
     margin-top: 2em;

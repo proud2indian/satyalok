@@ -7,30 +7,54 @@ body{
     overflow-x: hidden;
 }
 .music{
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 100vw;
+    position: fixed;
+    left: 0;
+    bottom: 0;
     padding: 2px;
     background: black;
+    width: 100vw;
     color: white;
+    z-index: 9;
     font-weight: bold;
 }
-.heading{
+.ls::before{
+    content: "○";
+}
+.translate{
+    position: relative;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 30px;
+    max-width: 80vw;
+    overflow: hidden;
     margin-top: 70px;
+}
+.heading{
     text-align: center;
     font-size: large;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     line-height: 0em;
+    display: flex;
+    justify-content: center;
+}
+.satyalok::before{
+    content: "-सत्यलोक-";
+}
+.satyalok::after{
+    content: "Satyalok";
+    text-decoration: underline;
 }
 .bottom{
     text-align: center;
+    margin-bottom: 100px;
 }
 .made{
     font-weight: 600;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-
+.made::before{
+    content: "Made With ❤️ In India";
+}
 .link{
     text-decoration: none;
     color: rgb(219, 197, 1);
@@ -45,10 +69,13 @@ body{
     text-align: center;
 }
 .back{
-    text-align: center;
     position: fixed;
     max-width: 50px;
-    top: 34px;
+    top: 60px;
+    border: rgb(219, 197, 1) 1px solid;
+    border-radius: 50%;
+    padding: 0;
+    margin: 0;
     left: 20px;
 }
 
