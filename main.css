@@ -6,6 +6,14 @@ body{
     max-width: 100vw;
     overflow-x: hidden;
 }
+.article{
+    width: 80vw;
+    max-width: 80vw;
+    height: 70vh;
+    border: rgb(219, 197, 1) 2px solid;
+    border-radius: 20px;
+    margin: auto;
+}
 .music{
     position: fixed;
     left: 0;
