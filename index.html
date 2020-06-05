@@ -20,8 +20,8 @@
 
 
     <style media="screen" type="text/css">
-        .layer1_class { position: absolute; z-index: 1; top: 50vh; left: 0; visibility: visible; justify-content: center; width: 100vw; height: 100vh;}
-        .layer2_class { position: absolute; z-index: 2; top: 0px; left: 0px; visibility: hidden;}
+        .layer1_class { position: fixed; z-index: 20; top: 40vh; left: 0; visibility: visible; justify-content: center; width: 100vw; height: fit-content;}
+        .layer2_class { position: absolute; z-index: 1; top: 0px; left: 0px; }
       </style>
       <script>
         function downLoad(){
@@ -71,9 +71,9 @@
 
 
     <div id="layer1" class="layer1_class"  style="color: white;">
-        <div style="width: fit-content; margin: auto; text-align: center;">
+        <div style="width: fit-content; margin: auto; text-align: center; background: black; padding: 20px; border: white 2px solid; border-radius:20px;">
         <h1 class="fa fa-spinner fa-spin" style="font-size: xx-large;"></h1><h2>Loading</h2>
-        <div><h5>Satyalok Organization</h5></div>
+        <div><h5>Site elements are loading, Please wait.</h5></div>
       </div>
     </div>
       <div id="layer2" class="layer2_class">
