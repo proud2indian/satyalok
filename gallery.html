@@ -3,33 +3,63 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="description" content="Satyalok Social Media Gallery to catch some of our work we are doing in & around.">
+    <meta name="keywords" content="NGO, organization, Satyalok Official. Satyalok, Non-Profit, Soiecty, Change, Satyalokies, Satyalokians, India, Change, World">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="theme-color" content="rgb(36, 35, 35)">
-    <link rel="stylesheet" href="main.css">
-    <title>Satyalok</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Social Media Gallery | Satyalok Organisation</title>
 </head>
 
 <body>
-    <div class="translate" id="google_translate_element">Select Language</div>
-<div style="width: 80vw; overflow: hidden;">
-    <script type="text/javascript">
-        function googleTranslateElementInit() {
-          new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
-        }
+    <header>
+        <img src="satyalok/NamedLogo.png" class="logo">
+        <div style="width: 80vw; overflow: hidden;">
+        </div>
+
+        <!-- Responsive Navigation Bar Start Here -->
+        <div class="topnav" id="myTopnav">
+            <a href="#home" class="donateUS">Donate Us</a>
+            <a href="..">Home</a>
+            <a href="about">About Us</a>
+            <a href="index.html#vision">Our Vision</a>
+            <a href="articles">Articles</a>
+            <a href="blogs">Blogs</a>
+            <a href="join">Join Us</a>
+            <div class="dropdown">
+                <button class="dropbtn">Gallery
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="gallery" class="active">Social Media Gallery</a>
+                    <a href="videos">Videos</a>
+                </div>
+            </div>
+            <a href="contact">Contact Us</a>
+            <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776; Menu</a>
+        </div>
+
+        <script>
+            function myFunction() {
+                var x = document.getElementById("myTopnav");
+                if (x.className === "topnav") {
+                    x.className += " responsive";
+                } else {
+                    x.className = "topnav";
+                }
+            }
         </script>
-        
-        <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-</div>
-      
-<div class="heading">
-    <div>
-        <h1 class="satyalok"></p>
-        </h1>
-    </div>
-</div>
-        <div class="back"><a href="index.html" class="link"><img src="home.png" class="back" style="width: 10vw"></a></div>
-        <br>
+        <!-- Responsive Navigation bar end here -->
+    </header>
+
+
+
+
+
+
 
         <h2 style="text-align: center; text-decoration: underline;">Gallery</h2>
 
@@ -42,9 +72,34 @@
     <p>
 
 
-        <div class="bottom">
-            <div class="made"><br></div>
-        </div>
+        <div class="mark"></div>
+
+    <footer>
+        <div class="footer_container">
+          <div class="footCrd"> <p style="font-size: 12px;">MADE WITH ❤️ IN INDIA </p>MADE BY RAHUL SINGH</div>
+            <div class="social_media">
+              <a href="https://facebook.com/satyalok.official"><i class="fa fa-facebook-official"></i></a>
+              <a href="contact"><i class="fa fa-envelope-o"></i></a>
+              <a href="https://instagram.com/satyalok.official"><i class="fa fa-instagram"></i></a>
+              <a href="https://www.youtube.com/channel/UCHfAqWJeE4eCJZATHmWnaSw"><i class="fa fa-youtube-play"></i></a>
+              <a href="https://t.me/satyalok"><i class="fa fa-paper-plane"></i></a>
+            </div>
+          <p>Satyalok Organization © 2020 All Rights Reserved.</p>
+      </footer>
+
+      <div class="translate"><div id="google_translate_elements"></div></div>
+      <div>
+          <script type="text/javascript">
+              function googleTranslateElementInit() {
+                  new google.translate.TranslateElement({ pageLanguage: 'en' }, 'google_translate_element');
+              }
+          </script>
+
+          <script type="text/javascript"
+              src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+      </div>
+      
+    </div>
 </div>
 <br>
 <p>

@@ -1,0 +1,26 @@
+section{
+    color: black;
+    background: rgb(255, 255, 255);
+    margin: auto;
+    width: 80vw;
+    max-width: 500px;
+    text-align: center;
+    padding: 10px;
+    margin-top: 80px;
+    border-radius: 10px;
+    font-size: x-large;
+}
+section h3{
+    font-size: large;
+    color: red;
+    font-weight: bold;
+}
+section a{
+    font-size: large;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+section a:hover{
+    color: red;
+}
